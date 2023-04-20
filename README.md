@@ -217,3 +217,24 @@ git fetch origin
 ```
 git reset --hard origin/main
 ```
+
+# Traigo las ramas del remoto que no tengo en mi local
+
+```
+git fetch
+```
+```
+git pull origin <Nombre de la rama>
+```
+
+# Resetear/borrar el ultimo commit local
+
+```
+git reset --hard HEAD~1
+```
+
+Luego actualizamos el remoto
+
+```
+git push origin +HEAD
+```
